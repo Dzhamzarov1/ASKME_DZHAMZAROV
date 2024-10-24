@@ -31,34 +31,30 @@
             <h1>Log In</h1>
         </div>
         <div class="content">
-            <div class="login_menu">
-                <div class="table">
+            <form class="login_menu" action="./index.html">
+                <table class="table">
                     <div class="warring">Sorry, wrong password!</div>
-                    <div class="row">
-                        <div class="cell">Login</div>
-                        <div class="cell"><input type="text"></div>
-                    </div>
-                    <form class="row" action="./index.html">
-                        <div class="cell">Password</div>
-                        <div class="cell">
-                            <div class="login">
-                                <div>
-                                    <input type="password">
-                                </div>
-                                <div>
-                                    <button>Log in!</button>
-                                </div>
-                                <div>
-                                    <a href="./signup.html">create new account</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                    <tr>
+                        <td>Login</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button>Log in!</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="./signup.html">create new account</a></td>
+                    </tr>
                     
                     
-                </div>
+                </table>
                 
-            </div>
+            </form>
             <aside class="sidebar">
                 <section class="popular-tags">
                     <h3>Popular Tags</h3>
