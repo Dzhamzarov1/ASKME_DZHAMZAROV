@@ -103,7 +103,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-likes {
-    width: 100%;
+    height: 15px;
+    width: 30px;
     padding: 0;
 }
 
@@ -168,7 +169,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .quest-likes {
-    width: 100%;
+    height: 15px;
+    width: 30px;
     padding: 0;
 }
 
@@ -210,7 +212,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .request-likes {
-    width: 100%;
+    height: 15px;
+    width: 30px;
     padding: 0;
 }
 
@@ -300,6 +303,7 @@ td {
 }
 
 .input1 {
+    height: 15px;
     width: 100%;
 }
 
